@@ -9,13 +9,16 @@ on:
         required: false
         default: 'false'
 
+permissions:
+  contents: read
+
 jobs:
   test:
     name: Test Release
     runs-on: ubuntu-latest
     steps:
       - name: Publish to pypi
-        uses: coveooss/pypi-publish-with-poetry@v1.0.0
+        uses: coveooss/pypi-publish-with-poetry@84aa0405b3e10921dcab065f86b583a402dd58c8 # v1
         with:
           project-name: secrules-parsing
           pypi-token: ${{ secrets.PYPI_TOKEN }}
