@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Publish to pypi
-        uses: coveooss/pypi-publish-with-poetry@v1.0.0
+        uses: coveooss/pypi-publish-with-poetry@1bd2d5f508b5a9973b7ab92a0f1ce97b8584bda0
         with:
           project-name: secrules-parsing
           pypi-token: ${{ secrets.PYPI_TOKEN }}
