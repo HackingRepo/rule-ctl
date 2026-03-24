@@ -1,2 +1,2 @@
-msc_pyparser
-pytest
+msc_pyparser==1.2.2 --hash=sha256:412de2418a35e49ba748cd7007058e03e6c0db3a51cedb6bc23799d62fa367bc
+pytest==9.0.2 --hash=sha256:75186651a92bd89611d1d9fc20f0b4345fd827c41ccd5c299a868a05d70edf11
